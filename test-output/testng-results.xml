@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="12" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-10T14:36:06 IST" name="Default suite" finished-at="2023-03-10T14:36:17 IST" duration-ms="10938">
+    <groups>
+    </groups>
+    <test started-at="2023-03-10T14:36:06 IST" name="Default test" finished-at="2023-03-10T14:36:17 IST" duration-ms="10938">
+      <class name="RoutineTest.Login">
+        <test-method is-config="true" signature="openFirefox()[pri:0, instance:RoutineTest.Login@31d7b7bf]" started-at="2023-03-10T14:36:06 IST" name="openFirefox" finished-at="2023-03-10T14:36:09 IST" duration-ms="2328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFirefox -->
+        <test-method signature="TestValidLogin()[pri:0, instance:RoutineTest.Login@31d7b7bf]" started-at="2023-03-10T14:36:09 IST" name="TestValidLogin" finished-at="2023-03-10T14:36:12 IST" duration-ms="3105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestValidLogin -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:RoutineTest.Login@31d7b7bf]" started-at="2023-03-10T14:36:12 IST" name="screenShot" finished-at="2023-03-10T14:36:12 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestValidLogin status=SUCCESS method=Login.TestValidLogin()[pri:0, instance:RoutineTest.Login@31d7b7bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- RoutineTest.Login -->
+      <class name="RoutineTest.Chargesheet">
+        <test-method signature="TestChargesheet()[pri:4, instance:RoutineTest.Chargesheet@50a638b5]" started-at="2023-03-10T14:36:12 IST" name="TestChargesheet" finished-at="2023-03-10T14:36:17 IST" duration-ms="5475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestChargesheet -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:RoutineTest.Chargesheet@50a638b5]" started-at="2023-03-10T14:36:17 IST" name="screenShot" finished-at="2023-03-10T14:36:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestChargesheet status=SUCCESS method=Chargesheet.TestChargesheet()[pri:4, instance:RoutineTest.Chargesheet@50a638b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- RoutineTest.Chargesheet -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
